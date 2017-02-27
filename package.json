@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "XP. Continuous Integration",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha -R spec test/*.js"
+    "test": "node_modules/mocha/bin/mocha --ui tdd tests/*.js"
   },
   "repository": {
     "type": "git",
