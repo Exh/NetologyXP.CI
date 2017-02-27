@@ -1,0 +1,25 @@
+{
+  "name": "netology-xp-сш",
+  "version": "1.0.0",
+  "description": "XP. Continuous Integration",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha -R spec test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmartStepGroupTrainings/NetologyXP.CI.git"
+  },
+  "keywords": [
+    "XP",
+    "ci",
+    "continuous-integration",
+    "travis-ci",
+    "js"
+  ],
+  "author": "SmartStepGroup",
+  "devDependencies": {
+    "mocha": "~2.4.5",
+    "chai": "~3.5.0",
+    "chai-http": "~2.0.1"
+  }
+}
