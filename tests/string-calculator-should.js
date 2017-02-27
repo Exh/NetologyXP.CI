@@ -8,15 +8,6 @@ suite('String calculator should', function () {
         return new Calculator();
     };
 
-    test('this one should fail', function () {
-        var calculator = createCalculator();
-
-        var sum = calculator.add(null);
-
-        assert.equal(sum, 1);
-
-    });
-
     test('return default value if input is empty', function () {
         var calculator = createCalculator();
 
